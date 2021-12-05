@@ -52,6 +52,15 @@
         font-size: 14px;
     }
 }
+.header__circle{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #f5f5f5;
+    &+.header__circle{
+        margin-left: 15px;
+    }
+}
 // end header
 // start search
 .search {
@@ -444,7 +453,8 @@
 }
 .footer__info-phone{
     &::before{
-        content: '\f095';
+        content: "\f095";
+        font-family: 'icomoon';
     }
 }
 .footer__col-list{
@@ -510,7 +520,7 @@
         &::before{
             content: '\f1d8';
             position: absolute;
-            font-family: 'icomoon';
+            font-family: "icomoon";
             color: #fff;
             font-size: 20px;
             top: 9px;
@@ -518,5 +528,7 @@
         }
     }
 }
+//end footer
+
 
 
